@@ -1,0 +1,28 @@
+@import '../../variables';
+
+.divInput{
+    width: 100%;
+    &__label{
+        margin-top: 2rem;
+        display: block;
+        color: $subtitle-color-default;
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    &__input{
+        width: 100%;
+        padding: 1rem .5rem;
+        border-bottom: 1px solid $border-bottom-default;
+        margin-top: .5rem;
+   
+    }
+
+    &__input:focus{
+        outline: none;
+    }
+
+    &__input:active{
+        outline: none;
+    }
+}

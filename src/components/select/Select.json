@@ -1,0 +1,17 @@
+
+
+[
+
+    {
+        "name": "Selecione",
+        "id": 0
+    },
+    {
+        "name": "Requerente",
+        "id": 1
+    },
+    {
+        "name": "Advogado",
+        "id": 2
+    }
+]

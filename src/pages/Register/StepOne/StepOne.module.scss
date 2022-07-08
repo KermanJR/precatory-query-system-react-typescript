@@ -1,0 +1,17 @@
+@import '../../../variables';
+.formRegister{
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+
+    &__login{
+        padding: 1rem 0;
+    }
+
+    &__login a{
+        text-decoration: none;
+        color: $color-default;
+        margin-left: .3rem;
+        font-weight: 600;
+    }
+}

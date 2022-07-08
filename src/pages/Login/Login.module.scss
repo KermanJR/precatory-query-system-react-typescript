@@ -1,0 +1,31 @@
+@import '../../variables';
+
+.login{
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+
+    &__forgot--password{
+        padding: 1.5rem 0;
+        text-align: right;
+    }
+
+    &__forgot--password a{
+        text-decoration: none;
+        color: $color-default;
+        font-weight: 600;
+        font-size: .875rem;
+    }
+    &__register{
+        padding: 1rem 0;
+    }
+    &__register a{
+        text-decoration: none;
+        color: $color-default;
+        margin-left: .3rem;
+        font-weight: 600;
+    }
+
+}
+
+    

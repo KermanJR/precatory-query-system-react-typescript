@@ -1,0 +1,27 @@
+@import '../../variables';
+
+.selectLabel{
+    margin-top: 2rem;
+        display: block;
+        color: $subtitle-color-default;
+        font-weight: 600;
+        font-size: 14px;
+}
+.select{
+    width: 100%;
+    padding: 1rem .5rem;
+    border: none;
+    border-bottom: 1px solid $border-bottom-default;
+
+    &:focus{
+        outline: none;
+        border-bottom: 1px solid $border-bottom-default;
+    }
+
+    &:active{
+        outline: none;  
+        border-bottom: 1px solid $border-bottom-default;
+    }
+
+    
+}
